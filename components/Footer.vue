@@ -1,6 +1,6 @@
 <template>
-    <div class="p-4 rounded-2xl">
-        <iframe class="rounded-2xl" src="https://open.spotify.com/embed/playlist/7g5SuefIr2F8zGcWntm4sw?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <div class="p-4 rounded-2xl xl:mt-20 xl:max-w-[50rem] xl:m-auto">
+        <iframe class="relative z-20 rounded-2xl" src="https://open.spotify.com/embed/playlist/7g5SuefIr2F8zGcWntm4sw?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
     </div>
     <UContainer>
