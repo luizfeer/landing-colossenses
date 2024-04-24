@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full relative h-full pt-12 bg-zinc-50 dark:bg-zinc-950">
+  <div class="w-full relative min-h-screen h-full pt-12 bg-zinc-50 dark:bg-zinc-950">
     <div class="relative z-20">
       <LazySwitchMode />
       <UContainer>
@@ -21,32 +21,32 @@
 <script setup>
 const img = useImage()
 useSeoMeta({
-  title: 'Hato | Minimal Portfolio Showcase',
-  ogTitle: 'Hato | Minimal Portfolio Showcase',
+  title: 'COLOssensess',
+  ogTitle: 'COLOssensess - Site Oficial',
   description:
-    'Discover Hato, the sleek portfolio website perfect for freelancers, photographers, and artists made with Nuxt UI',
+    'Cultivando uma vida com intencionalidade e propósito.',
   ogDescription:
-    'Discover Hato, the sleek portfolio website perfect for freelancers, photographers, and artists made with Nuxt UI',
-  ogImage: "https://res.cloudinary.com/dkr1hluva/image/upload/v1713023084/og/og-hato_roec1l.jpg",
-  ogImageSecureUrl: 'https://res.cloudinary.com/dkr1hluva/image/upload/v1713023084/og/og-hato_roec1l.jpg',
-  ogUrl: 'https://res.cloudinary.com/dkr1hluva/image/upload/v1713023084/og/og-hato_roec1l.jpg',
-  twitterImage: "https://res.cloudinary.com/dkr1hluva/image/upload/v1713023084/og/og-hato_roec1l.jpg",
+    'Cultivando uma vida com intencionalidade e propósito.',
+  ogImage: "https://colossensess.com/og.jpg",
+  ogImageSecureUrl: 'https://colossensess.com/og.jpg',
+  ogUrl: 'https://colossensess.com/og.jpg',
+  twitterImage: "https://colossensess.com/og.jpg",
   twitterCard: "summary_large_image",
-  twitterTitle: 'Hato | Minimal Portfolio Showcase',
-  twitterDescription: 'Discover Hato, the sleek portfolio website perfect for freelancers, photographers, and artists made with Nuxt UI',
-  ogImageWidth: 1280,
-  ogImageHeight: 720,
+  twitterTitle: 'COLOssensess - Site Oficial',
+  twitterDescription: 'Cultivando uma vida com intencionalidade e propósito.',
+  ogImageWidth: 1200,
+  ogImageHeight: 630,
 });
 
 useHead({
   htmlAttrs: {
-    lang: 'en'
+    lang: 'pt-BR'
   },
   link: [
     {
       rel: 'icon',
       type: 'image/svg',
-      href: '/favicon.svg'
+      href: '/favicon.ico'
     }
   ]
 })

@@ -15,8 +15,8 @@
                 class="text-2xl text-zinc-800/60 dark:text-zinc-50/60 dark:hover:text-zinc-50 hover:text-zinc-950"
                 dynamic />
         </NuxtLink>
-        <NuxtLink v-if="github" :to="github" target="_blank" aria-label="Go to social network">
-            <UIcon name="i-simple-icons-github"
+        <NuxtLink v-if="github" :to="github" target="_blank" aria-label="Go to spotify">
+            <UIcon name="i-simple-icons-spotify"
                 class="text-2xl text-zinc-800/60 dark:text-zinc-50/60 dark:hover:text-zinc-50 hover:text-zinc-950"
                 dynamic />
         </NuxtLink>
@@ -31,6 +31,7 @@
                 dynamic />
         </NuxtLink>
     </div>
+    
 </template>
 
 <script setup>
